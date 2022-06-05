@@ -1,0 +1,15 @@
+.Castle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Castillo{
+    max-height: 55vw;
+    height: 50vw;
+    min-height: 40vw;
+}
+
+.image{
+    height: 100%;
+}

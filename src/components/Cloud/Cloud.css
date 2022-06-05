@@ -1,0 +1,43 @@
+.cloud_cont{
+    height: 5%;
+    position: relative;
+    text-align: center;
+}
+
+.cloud_img{
+    top: 50%;
+    position: inherit;
+    height: 10vw;
+    width: 30vw;
+}
+
+.center{
+    font-size: 2vw;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.info{
+    font-size: 2vw;
+    inline-size: 20%;
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    color: antiquewhite;
+}
+
+a{
+    font-size: 2vw;
+    color: #DBA632;
+    text-align: center;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+a:hover{
+    opacity: 0.2;
+}

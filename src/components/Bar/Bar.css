@@ -1,0 +1,65 @@
+.Barra{
+    width: 100%;
+    height: 20%;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    /*display: grid;
+    grid-template-rows: repeat(auto-fit, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5vw;*/
+    font-size: 1.5vw;
+    display: grid;
+    grid:
+        "sidebar body" 1fr
+        / auto 1fr;
+    gap: 8px;
+}
+
+
+
+
+.logo_cont{
+    grid-area: sidebar;
+    width: 13vw;
+    height: 13vw;
+    background-color: rgb(252, 251, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    align-items: center;
+    box-shadow: inset 0px 0px 40px 40px #DBA632;
+}
+
+.logo_cont:hover{
+    width: 14vw;
+    height: 14vw;
+    position: relative;
+    animation-name: Tepes;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+@keyframes Tepes {
+    0%   {background-color:#f6fbc0;}
+    15%  {background-color:#edd959;}
+    30%  {background-color:#eeb124;}
+    50%  {background-color:#f87f1c;}
+    70%  {background-color:#d32323;}
+    80%  {background-color:#f87f1c;}
+    90%  {background-color:#eeb124;}
+    95%  {background-color:#edd959;}
+    100% {background-color:#f6fbc0;}
+}
+.Logo{
+    max-height: 12vw;
+    max-width: 12vw;
+    left: 0%;
+}
+
+.who{
+    font-family: 'Garamond';
+    grid-area: body;
+    color: #050324;
+}
